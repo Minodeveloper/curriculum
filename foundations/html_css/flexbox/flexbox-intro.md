@@ -41,7 +41,7 @@ If you add another div to the HTML, inside of `.flex-container`, it will show up
 
 As you've seen, flexbox is not just a single CSS property but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the _flex container_, while some go on the _flex items_. This is a simple yet important concept.
 
-<span id="flex-container-item-knowledge-check">A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.</span>
+<span id="flex-container-item-knowledge-check">A flex container is any element that has `display: flex` on it.When we add `display: flex`, we are really defining `display: block flex`. The outer display type of our flex container is block, it acts like a block level element in normal flow. The inner display type is flex, so items directly inside our container will participate in flex layout. The flex container acts like any other block on your page. If you have a paragraph followed by a flex container, both of these things behave as we have become accustomed to block elements behaving.  A flex item is any element that lives directly inside of a flex container.</span>
 
 <span id="how-to-create-flex-item-knowledge-check">![container-vs-child](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/03.png)</span>
 
